@@ -1,0 +1,19 @@
+{
+    "name": "<NAME>",
+    "version": "<VERSION>",
+    "description": "<DESCRIPTION>",
+    "scripts": {},
+    "keywords": [],
+    "author": "Atanas Atanasov <scriptex.bg@gmail.com> (https://atanas.info)",
+    "repository": "https://github.com/scriptex/initial-commit",
+    "bugs": {
+      "url": "https://github.com/scriptex/initial-commit/issues",
+      "email": "scriptex.bg@gmail.com"
+    },
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {},
+    "browserslist": [],
+    "main": "<MAIN>",
+    "private": true
+}
