@@ -1,23 +1,10 @@
-[![GitHub release](https://img.shields.io/github/release/scriptex/initial-commit.svg)](https://github.com/scriptex/initial-commit/releases/latest)
-[![GitHub issues](https://img.shields.io/github/issues/scriptex/initial-commit.svg)](https://github.com/scriptex/initial-commit/issues)
-[![GitHub last commit](https://img.shields.io/github/last-commit/scriptex/initial-commit.svg)](https://github.com/scriptex/initial-commit/commits/master)
-[![Build Status](https://travis-ci.org/scriptex/initial-commit.svg?branch=master)](https://travis-ci.org/scriptex/initial-commit)
-[![npm](https://img.shields.io/npm/dt/initial-commit.svg)](https://www.npmjs.com/package/initial-commit)
-[![npm](https://img.shields.io/npm/v/initial-commit.svg)](https://www.npmjs.com/package/initial-commit)
-[![Analytics](https://ga-beacon.appspot.com/UA-83446952-1/github.com/scriptex/initial-commit/README.md)](https://github.com/scriptex/initial-commit/)
+# Universal Github Client
 
-# Initial Commit
-
-A starter template for a git repository.
-
-Use this when creating a NPM package, static website, or any other repository in a git environment
+> A Github API Client for the browser and Node JS
 
 ## Usage
 
-1. Clone this repository
-2. Modify relevant files
-3. Push to your new repository location
-4. Profit
+TODO: Add README
 
 ## Support this project
 
