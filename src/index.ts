@@ -2,27 +2,6 @@ export interface IndexedList<T> {
 	[x: string]: T;
 }
 
-export interface IHttpExceptionOptions {
-	url: string;
-	status: number;
-	message: string;
-	statusText: string;
-}
-
-export class HttpException extends Error {
-	public url: string;
-	public status: number;
-	public statusText: string;
-
-	constructor({ message, status, statusText, url }: IHttpExceptionOptions) {
-		super(message);
-
-		this.url = url;
-		this.status = status;
-		this.statusText = statusText;
-	}
-}
-
 export interface IGithubClient {
 	readonly base: string;
 	readonly token: string;
@@ -89,12 +68,11 @@ export class GitHubClient {
 		if (response.ok) {
 			return response.json();
 		} else {
-			throw new HttpException({
-				message: `HttpException[${method}]`,
+			return {
 				status: response.status,
 				statusText: response.statusText,
 				url: response.url
-			});
+			};
 		}
 	}
 }

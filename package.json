@@ -1,12 +1,25 @@
 {
 	"name": "universal-github-client",
 	"version": "1.0.0",
-	"main": "index.js",
+	"description": "A Github API Client for the browser and Node",
 	"scripts": {
 		"build": "tsc"
 	},
-	"author": "Atanas Atanasov",
+	"keywords": [
+		"Github API",
+		"Github",
+		"Client",
+		"TypeScript"
+	],
+	"author": "Atanas Atanasov <scriptex.bg@gmail.com> (https://atanas.info)",
+	"repository": "git@github.com:scriptex/universal-github-client.git",
+	"bugs": {
+		"url": "https://github.com/scriptex/universal-github-client/issues",
+		"email": "scriptex.bg@gmail.com"
+	},
 	"license": "MIT",
+	"main": "dist/index.js",
+	"typings": "dist/index.d.ts",
 	"dependencies": {},
 	"devDependencies": {
 		"typescript": "3.9.5",

@@ -21,8 +21,8 @@ Thumbs.db
 .editorconfig
 
 # Git
-.gitignore
 .gitattributes
+.gitignore
 
 # CI
 .travis.yml
@@ -31,17 +31,20 @@ Thumbs.db
 yarn.lock
 
 # Prettier
-.prettierrc
 .prettierignore
+.prettierrc
 
 # Config files
+_.config.yml
+_config.yml
 .babelrc
+.nowignore
+.nvmrc
+.whitesource
 renovate.json
 tslint.json
-ts-config.json
+tsconfig.json
 postcss.config.js
 webpack.config.js
-_config.yml
-_.config.yml
 
 # Project specific
