@@ -1,6 +1,6 @@
 {
 	"name": "universal-github-client",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A Github API Client for the browser and Node",
 	"scripts": {
 		"build": "tsc"
