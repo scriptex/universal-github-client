@@ -14,7 +14,7 @@ npm i universal-github-client
 yarn add universal-github-client
 ```
 
-Then you need to generate a new token from your [Github profile](https://github.com/settings/tokens) and make sure that this token has access to the `repo` scopes.
+Then you need to generate a new token from your [Github profile](https://github.com/settings/tokens) and make sure that this token has access to the relevant scopes that you plan to query the API for.
 
 Then you need to configure and setup your Github Client instance:
 
