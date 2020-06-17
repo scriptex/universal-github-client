@@ -11,7 +11,7 @@ npm i universal-github-client
 
 # or
 
-yarn add npm i universal-github-client
+yarn add universal-github-client
 ```
 
 Then you need to generate a new token from your [Github profile](https://github.com/settings/tokens) and make sure that this token has access to the `repo` scopes.
