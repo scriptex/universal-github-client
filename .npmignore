@@ -35,6 +35,7 @@ yarn.lock
 .prettierrc
 
 # Config files
+.github
 _.config.yml
 _config.yml
 .babelrc
