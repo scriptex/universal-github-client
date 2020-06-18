@@ -38,23 +38,23 @@ export class GitHubClient {
 		return this;
 	}
 
-	public get({ path }: IGithubClientOptions): Promise<any> {
+	public get({ path }: Pick<IGithubClientOptions, 'path'>): Promise<any> {
 		return this.call({ method: 'GET', path, data: null });
 	}
 
-	public delete({ path }: IGithubClientOptions): Promise<any> {
+	public delete({ path }: Pick<IGithubClientOptions, 'path'>): Promise<any> {
 		return this.call({ method: 'DELETE', path, data: null });
 	}
 
-	public post({ path, data }: IGithubClientOptions): Promise<any> {
+	public post({ path, data }: Omit<IGithubClientOptions, 'method'>): Promise<any> {
 		return this.call({ method: 'POST', path, data });
 	}
 
-	public put({ path, data }: IGithubClientOptions): Promise<any> {
+	public put({ path, data }: Omit<IGithubClientOptions, 'method'>): Promise<any> {
 		return this.call({ method: 'PUT', path, data });
 	}
 
-	public patch({ path, data }: IGithubClientOptions): Promise<any> {
+	public patch({ path, data }: Omit<IGithubClientOptions, 'method'>): Promise<any> {
 		return this.call({ method: 'PATCH', path, data });
 	}
 
