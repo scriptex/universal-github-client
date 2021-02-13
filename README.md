@@ -1,3 +1,11 @@
+[![GitHub release](https://img.shields.io/github/release/scriptex/universal-github-client.svg)](https://github.com/scriptex/universal-github-client/releases/latest)
+[![GitHub issues](https://img.shields.io/github/issues/scriptex/universal-github-client.svg)](https://github.com/scriptex/universal-github-client/issues)
+[![GitHub last commit](https://img.shields.io/github/last-commit/scriptex/universal-github-client.svg)](https://github.com/scriptex/universal-github-client/commits/master)
+[![Build Status](https://travis-ci.org/scriptex/universal-github-client.svg?branch=master)](https://travis-ci.org/scriptex/universal-github-client)
+[![npm](https://img.shields.io/npm/dt/universal-github-client.svg)](https://www.npmjs.com/package/universal-github-client)
+[![npm](https://img.shields.io/npm/v/universal-github-client.svg)](https://www.npmjs.com/package/universal-github-client)
+[![Analytics](https://ga-beacon.appspot.com/UA-83446952-1/github.com/scriptex/universal-github-client/README.md)](https://github.com/scriptex/universal-github-client)
+
 # Universal Github Client
 
 > A Github API Client for the browser and Node JS
