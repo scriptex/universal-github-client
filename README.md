@@ -43,7 +43,7 @@ Then you need to configure and setup your Github Client instance:
 
 ### In Node
 
-You need to install a fetch polyfill because Node does not include one.
+Node prior to v17.5.0 and v16.5.0 does not include the `fetch` API so you might need to install a polyfill in order to use this module in Node.
 
 ```sh
 npm i node-fetch
@@ -52,6 +52,14 @@ npm i node-fetch
 
 yarn add node-fetch
 ```
+
+Node v16.5.0 and v17.5.0 include the `fetch` API but behind the `--experimental-fetch` CLI flag.
+
+Node v18.0.0 no longer requires the `--experimental-fetch` CLI  flag but the `fetch` API is still marked as "experimental".
+
+Node v21.0.0 comes with a stable version of the `fetch` API.
+
+More about the history of the `fetch` API and its usage in Node can be found [in the official documentation](https://nodejs.org/docs/latest/api/globals.html#fetch).
 
 ```javascript
 const fetch = require('node-fetch');
